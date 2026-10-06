@@ -1,0 +1,60 @@
+CREDIT RISK PREDICTION PROJECT
+
+Project Overview:
+This project predicts whether a loan application is likely to be approved or not approved based on applicant and loan-related information.
+
+Machine Learning Model:
+The project uses Logistic Regression as the classification model.
+
+Target Variable:
+The target variable is Loan_Status.
+
+Loan_Status:
+Y represents an approved loan.
+N represents a loan that was not approved.
+
+Important Features:
+
+Gender:
+Represents the gender of the loan applicant.
+
+Married:
+Indicates whether the applicant is married.
+
+Dependents:
+Represents the number of dependents of the applicant.
+
+Education:
+Represents the education level of the applicant.
+
+Self_Employed:
+Indicates whether the applicant is self-employed.
+
+ApplicantIncome:
+Represents the income of the primary loan applicant.
+
+CoapplicantIncome:
+Represents the income of the co-applicant.
+
+LoanAmount:
+Represents the requested loan amount.
+
+Loan_Amount_Term:
+Represents the loan repayment term.
+
+Credit_History:
+Represents the applicant's credit history information.
+
+Property_Area:
+Represents the area classification of the property.
+
+Model Purpose:
+The Logistic Regression model uses applicant and loan-related features to classify loan applications into the available loan-status classes.
+
+RAG Assistant:
+The RAG component retrieves relevant information from the project knowledge base and uses that information to answer user questions.
+
+Important Architecture:
+The machine learning model is responsible for loan-status prediction.
+The RAG system is responsible for retrieving project information and answering questions.
+The RAG system does not replace the machine learning prediction model.
