@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
